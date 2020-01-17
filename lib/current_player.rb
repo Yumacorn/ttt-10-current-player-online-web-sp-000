@@ -8,3 +8,6 @@ def turn_count(board)
   board.each{|space| turn_number += 1 if (space == "X" || space == "O")}
   turn_number
 end
+
+def current_player
+end
